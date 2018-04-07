@@ -17,12 +17,12 @@ body, div, a {
 #total {
     height: 70px;
     width: 300px;
-    margin: 0;
+    margin: auto;
+    background-color:white;
     margin-bottom: 5px;
-    padding: 0 5px;
-    background-color: #fff;
     text-align: right;
     font-size: 60px;
+    padding: 0 5px;
 }
 
 #numbers {
@@ -67,4 +67,10 @@ a {
     background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
     background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
     border-radius: 10px;
+}
+
+a:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
+    background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
 }
